@@ -19,7 +19,7 @@
 
 # -- Project information -----------------------------------------------------
 
-project = 'Data Science Fundamentals Course'
+project = 'Data Science Fundamentals'
 copyright = '2018, MSNE@TUM'
 author = 'MSNE@TUM'
 
