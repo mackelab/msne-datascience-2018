@@ -1,74 +1,90 @@
 # Block 1
-- in general dont set the outline like this, bottom up, rather find a good course and use their outline, adapt it, top down.
-- write down 2-3 things to be learned in each session
 
 ## Intro talk 
 goal of the course, spirit, format, why python shortly, their backgrounds,
   projects, usefulness, oral exam. they are welcome to take all the time of the 
   course. but dont have to. we are offering, they can make use of it, if they want. 
   it is about learning, not about optimizing the grade. 
+
+## Session 0: Introduction 
+### Goals  
+1. overview of course content, format, organisation stuff 
+2. justification for using python
+3. know who else is attending the course 
+### Content 
+- intro by Jakob
+- overall goal of the course 
+- why python? 
+- course structure, lectures, projects, exam, style
   
 ## Session 1: Getting started
 ### Goals 
 1) have python and anaconda installed 
-2) navigate in the terminal, install packages, use an editor for coding 
-3) know about jupyter notebook and how to open it
+2) navigate in the terminal, install packages, know different editors, run scripts 
+3) work with jupyter notebook / lab, run simple arithmetic operations 
+
+### Style
+We do this session with our laptop on the beamer, doing stuff in the terminal in real time. We could have additional 
+or a whiteboard with the essential commands: ls, pwd, mkdir etc. Or they take notes. 
 
 ### Content  
-- install python and anaconda
-  - intro to python in general: what is python, what is anaconda,
-    what are packages? 
-  - show how to install a package
-  - short note on environments
-  - what is conda, pip, how does it work on windows, macos, linux?
-  - allocate time to make sure everyone has python installed etc.
-- intro to terminal and text editors for coding
-  - packages, pip
-  - cmd basic, vi editor, how to edit and how to exit
-  - mention atom, pycharm
-  - hands on
-    - create folders, create and edit python file, hello world
-    - create environment, install package, open jupyter, import package
+- install python (using Miniconda / Anaconda)
+- intro to terminal/cmd commands 
+    - open the terminal
+    - navigate through directories, create, move delete
+    - create files
+- intro to python
+  - use python in the terminal for simple arithmetics  
+  - move to IPython, do arithmetics and define variables 
+  - import math or time package and do more stuff 
+  - pip/conda install a non standard package, e.g., 
+  - create a file with .py extension and open it in a text editor (implement "Hello World!")
+  - run the script in terminal 
 - jupyter notebook
   - let them install jupyter
-  - open a notebook and show them around, explain everything. point to the first tutorial on http://jupyter.org/    
-  - let them do a basic jupyter notebook / ipython tutorial in the notebook.   
-  - mention how it works in the background but explain only later (mini lecture)
+  - open a notebook and show them around, explain everything
+  - do a more detailed tutorial, e.g., ?? those at jupyter.org are not useful
 - bring everything of the above together into: jupyter lab
 
-## Session 2: Basic python
+## Session 2: Basics of python
 ### Goals 
-1) python syntax and types  
-2) loops, if-else statements, list comprehension, slicing 
+1) python syntax and types
+2) functions, loops, if-else statements, list comprehension 
 3) start coding
+
 ### Content  
 - python basics, syntax, operations, types etc: 
     - https://github.com/nickdelgrosso/SciPyCourse2016/blob/master/Python%20Course%20Lecture%201.ipynb
     - https://github.com/nickdelgrosso/SciPyCourse2016/blob/master/Python%20Course%20Lecture%202.ipynb
 - at the end they should know: booleans, lists, dics, tuples, loops, conditional statements etc.
-- this is the basis for numpy and matplotlib
 
 ### Hands on 
-- https://www.codecademy.com/learn/learn-python
-- http://www.codewars.com/kata/pillars/train/python
+- https://www.codecademy.com/learn/learn-python for complete beginners
+- http://www.codewars.com/kata/pillars/train/python for practice 
 - http://www.codewars.com/kata/sum-of-positive/train/python
 
 
-## Session 3: Analysis and Plotting
+## Session 3: Analysis and Plotting, Numpy and Matplotlib
 ### Goals 
 1. concept of numpy
 2. load data, analyse data with numpy 
 3. plotting data with matplotlib 
 
 ### Content   
-- numpy and matplotlib lecture: 
+- in depth numpy lecture
+    - https://github.com/jakevdp/PythonDataScienceHandbook/blob/master/notebooks/02.00-Introduction-to-NumPy.ipynb
+- in depth matplotlib lecture 
+    - https://github.com/jakevdp/PythonDataScienceHandbook/blob/master/notebooks/04.00-Introduction-To-Matplotlib.ipynb
+- more condensed numpy and matplotlib lecture: 
     - https://github.com/nickdelgrosso/SciPyCourse2016/blob/master/Python%20Course%20Lecture%203.ipynb
-- provide an exercise with loading data, using numpy for analysis and plt for plotting 
+- provide an exercise with loading data, using numpy for analysis and plt for plotting
+    - find good tuturial  
 
 ### Homework:
 - homeworks by nickdelgrosso: 
     - https://github.com/nickdelgrosso/SciPyCourse2016/blob/master/Homework%201%20Jupyter%20Notebook%20and%20Builtin%20Type%20Methods.ipynb 
 - katas, python challenge, links to tutorials
+    - codewars.com
 
 # Block 2
 
