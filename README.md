@@ -5,7 +5,7 @@ fundamentals at TUM.
 You find notebooks with exercises in the `notebooks` folder and slides with
 summaries of lectures in the `slides` folder.
 
-The course is organized in blocks and sessions and you will find subfolders for
+The course is organized in blocks and you will find subfolders for
 every block.
 
 To download the course content click on the green button `Clone or download` in
@@ -15,4 +15,4 @@ command in your terminal:
 
 `git clone https://github.com/cne-tum/msne-datascience-2018.git`
 
-If there anything unclear please create an issue. 
+If you any questions please create an issue. 
