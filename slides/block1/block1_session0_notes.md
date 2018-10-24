@@ -1,4 +1,4 @@
-# Intro session 
+# Session 0
 introduce everyone involved in the course 
 ## Goals 
 - learn to basics of programming in python, enable you to continue learning on your own
