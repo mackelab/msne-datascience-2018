@@ -4,3 +4,4 @@ matplotlib
 pandas 
 seaborn 
 jupyterlab
+rise==5.4.1
