@@ -15,4 +15,4 @@ command in your terminal:
 
 `git clone https://github.com/cne-tum/msne-datascience-2018.git`
 
-If you any questions please create an issue. 
+If there is anything unclear please create an issue. 
