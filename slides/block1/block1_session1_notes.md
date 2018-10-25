@@ -3,7 +3,12 @@
 - introduce me: background, how I learned programming 
 - everyone quickly talks about his or her background
 - show the google form results
-- teaching style, question and mistake policy
+- teaching style, 
+	- interactive, ask question anytime 
+	- mistake are informative, dont be afraid of making mistakes, they enhance learning
+	- feedback is welcome: style, pace, content 
+	- if it boring for you / not the right pace, you can of course leave,
+	- if it too fast, make sure to let me know 
 
 ### Goals 
 1) have python and anaconda installed 
@@ -31,6 +36,8 @@ open terminal, start with
 #### Exercise 
 - create a directory for the course 
 - git clone the repository of the course 
+- do it with them in the terminal 
+- show them around in the repository
 
 ### Installing anaconda, intro to python
 - everyone download and install anaconda if not done already 
@@ -56,7 +63,7 @@ open terminal, start with
 - find out w.r.t what data this time is counted. 
 
 ### IPython
-- tab completion, syntax high lighting, more help and documentation, interactive
+- advantages: tab completion, syntax high lighting, more help and documentation, interactive
 - open ipython and show how it works: import math, calculate cos(pi) demonstrating tab completion and help
 
 #### Exercise 
@@ -81,6 +88,18 @@ open terminal, start with
 ### Jupyter notebook
 - let them install jupyter if not included in anaconda 
 - open a notebook and show them around, explain everything
+
+https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet
+
+## Notebook Exercise:
+
+  1. Open a Notebook in Jupyter in a new folder on your computer.
+  2. Change the Title of the Notebook
+  3. Make an integer variable and a string variable in the first cell
+  4. Print the output of multiplying the two variables together
+  5. Add a markdown cell above the cell you just made, and make a Header title
+  6. Create an interactive console session with the **%qtconsole** magic.
+
 
 ### Jupyter lab 
 - bring everything of the above together into: jupyter lab
