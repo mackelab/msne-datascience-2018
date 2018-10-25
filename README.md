@@ -14,6 +14,6 @@ command in your terminal:
 
 `git clone https://github.com/cne-tum/msne-datascience-2018.git`
 
-Alternatively, you can try working with the notebooks in this repository directly in your browser using [![Binder](https://mybinder.org/badge.svg)](https://mybinder.org/v2/gh/cne-tum/msne-datascience-2018/master). 
+Alternatively, you can start exploring this repository right here in your browser using [![Binder](https://mybinder.org/badge.svg)](https://mybinder.org/v2/gh/cne-tum/msne-datascience-2018/master). 
 
 If there is anything unclear please create an issue. 
