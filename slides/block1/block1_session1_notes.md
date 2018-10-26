@@ -6,9 +6,11 @@
 - teaching style, 
 	- interactive, ask question anytime 
 	- mistake are informative, dont be afraid of making mistakes, they enhance learning
-	- feedback is welcome: style, pace, content 
-	- if it boring for you / not the right pace, you can of course leave,
+	- feedback is welcome: style, pace, content
+	- if it is boring for you / not the right pace, you can of course leave,
 	- if it too fast, make sure to let me know 
+	- short breaks 
+	- be quiet in the hallway
 
 ### Goals 
 1) have python and anaconda installed 
@@ -70,6 +72,7 @@ open terminal, start with
 - open ipython, import time, 
 - checkout the functions the package provide using the tab completion 
 - look for time.strftime( and get help on this function
+- print the today data and time in the following format: 25/10/2018 15:20
 
 ### Python program
 - create a file with .py ending, print hello world 
@@ -98,15 +101,13 @@ https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet
   3. Make an integer variable and a string variable in the first cell
   4. Print the output of multiplying the two variables together
   5. Add a markdown cell above the cell you just made, and make a Header title
-  6. Create an interactive console session with the **%qtconsole** magic.
-
 
 ### Jupyter lab 
 - bring everything of the above together into: jupyter lab
 - start jupyter lab, they should see the directory and play around with the IPython console, terminal, jupyter notebook. 
 - check out the course repository
 
-## Goals 
+## Goals
 1) navigate in the terminal, install packages, know different editors, run scripts 
 2) have python and anaconda installed
 3) work with jupyter notebook / lab, run simple arithmetic operations
