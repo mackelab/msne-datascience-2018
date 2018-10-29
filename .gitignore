@@ -1,4 +1,5 @@
-/notebooks/.ipynb_checkpoints
+docs/
+*.ipynb_checkpoints/
 *.png
 *.pyc
 *.pyd
