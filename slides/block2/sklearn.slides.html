@@ -13274,6 +13274,7 @@ a.anchor-link {
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span class="kn">import</span> <span class="nn">matplotlib.image</span> <span class="k">as</span> <span class="nn">mpimg</span>
 <span class="n">plt</span><span class="o">.</span><span class="n">imshow</span><span class="p">(</span><span class="n">mpimg</span><span class="o">.</span><span class="n">imread</span><span class="p">(</span><span class="s">&#39;./img/ml_map.png&#39;</span><span class="p">))</span>
+<span class="n">plt</span><span class="o">.</span><span class="n">axis</span><span class="p">(</span><span class="s">&#39;off&#39;</span><span class="p">)</span>
 <span class="n">plt</span><span class="o">.</span><span class="n">show</span><span class="p">()</span>
 </pre></div>
 
@@ -13281,6 +13282,136 @@ a.anchor-link {
 </div>
 </div>
 
+</div></section></section><section><section>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h1 id="getting-started">getting started<a class="anchor-link" href="#getting-started">&#182;</a></h1>
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span class="kn">import</span> <span class="nn">sklearn</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div></section></section><section><section>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h2 id="iris-dataset">iris dataset<a class="anchor-link" href="#iris-dataset">&#182;</a></h2><ul>
+<li>$N =150$ datapoints</li>
+<li>$d = 4$ features: Sepal Length, Sepal Width, Petal Length and Petal Width</li>
+</ul>
+<p>$\mathcal{D} = X \in \mathbb{R}^{150 \times 4}$</p>
+<ul>
+<li>$c = 3$ classes: Setosa, Versicolour, and Virginica</li>
+</ul>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>typical workflow:</p>
+<ul>
+<li>explore the data</li>
+</ul>
+<p><a href="https://scikit-learn.org/stable/auto_examples/datasets/plot_iris_dataset.html">https://scikit-learn.org/stable/auto_examples/datasets/plot_iris_dataset.html</a></p>
+<ul>
+<li>find simple structure of the data</li>
+</ul>
+<p><a href="https://scikit-learn.org/stable/auto_examples/decomposition/plot_pca_iris.html">https://scikit-learn.org/stable/auto_examples/decomposition/plot_pca_iris.html</a></p>
+<ul>
+<li>simple data analysis : classification (i)</li>
+</ul>
+<p><a href="https://scikit-learn.org/stable/auto_examples/tree/plot_iris.html">https://scikit-learn.org/stable/auto_examples/tree/plot_iris.html</a></p>
+<ul>
+<li>simple data analysis : classification (ii)</li>
+</ul>
+<p><a href="https://scikit-learn.org/stable/auto_examples/cluster/plot_cluster_iris.html">https://scikit-learn.org/stable/auto_examples/cluster/plot_cluster_iris.html</a></p>
+
+</div>
+</div>
+</div></section></section><section><section>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h2 id="whole-zoo-of-possible-methods">whole zoo of possible methods<a class="anchor-link" href="#whole-zoo-of-possible-methods">&#182;</a></h2><ul>
+<li>which method to choose? </li>
+<li>when do we know we are done?</li>
+</ul>
+<p><a href="https://scikit-learn.org/stable/auto_examples/classification/plot_classifier_comparison.html">https://scikit-learn.org/stable/auto_examples/classification/plot_classifier_comparison.html</a></p>
+
+</div>
+</div>
+</div></section></section><section><section>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h2 id="digits-dataset">digits dataset<a class="anchor-link" href="#digits-dataset">&#182;</a></h2><ul>
+<li>$N = 1797$ datapoitns</li>
+<li>$d = 64$ features: $8 \times{} 8$ grayscale images</li>
+</ul>
+<p>$D = X \in \{0, 255\}^{1797 \times 8 \times 8}$</p>
+<ul>
+<li>$c = 10$ classes: $0,1,\ldots,9$</li>
+</ul>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<ul>
+<li>explore the data</li>
+</ul>
+<p><a href="https://scikit-learn.org/stable/auto_examples/datasets/plot_digits_last_image.html">https://scikit-learn.org/stable/auto_examples/datasets/plot_digits_last_image.html</a></p>
+<ul>
+<li>simple data analysis</li>
+</ul>
+<p><a href="https://scikit-learn.org/stable/auto_examples/classification/plot_digits_classification.html">https://scikit-learn.org/stable/auto_examples/classification/plot_digits_classification.html</a></p>
+
+</div>
+</div>
+</div></section></section><section><section>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h1 id="pipelines">pipelines<a class="anchor-link" href="#pipelines">&#182;</a></h1><ul>
+<li>combining several methods</li>
+<li>typical: <em>feature extraction</em> before classification </li>
+</ul>
+<p><a href="https://scikit-learn.org/stable/auto_examples/compose/plot_digits_pipe.html">https://scikit-learn.org/stable/auto_examples/compose/plot_digits_pipe.html</a></p>
+<p><a href="https://scikit-learn.org/stable/auto_examples/applications/plot_face_recognition.html">https://scikit-learn.org/stable/auto_examples/applications/plot_face_recognition.html</a></p>
+
+</div>
+</div>
+</div></section></section><section><section>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h1 id="summary">summary<a class="anchor-link" href="#summary">&#182;</a></h1><p>things we covered:</p>
+<ul>
+<li>loading a dataset</li>
+<li>visualizing data</li>
+<li>data re-representation and dimensionality reduction</li>
+<li>applying simple analyses with .fit(X,y) </li>
+<li>evaluating and comparing model fits</li>
+<li>combining several methods ('pipelining')</li>
+</ul>
+
+</div>
+</div>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
