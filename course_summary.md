@@ -188,3 +188,27 @@ Re-create the figure below.
 <div style="text-align:center">
     <img src ="notebooks/block1/img/ExercisePlot.png" height="800" width="800"/>
 </div>
+
+
+# Block2
+
+## Session 8: scikit-learn
+
+### Goals 
+- Understand (short) programs
+- Exposure to central concepts of machine learning
+- Examples of data analysis workflows
+- Learn scikit syntax
+
+### Content 
+- Short introduction to machine learning
+- sklearn tutorials:
+    - Load datasets and explore (identify input data, target data within numpy arrays)
+    - Visualize data (with matplotlib)
+    - Apply simple ML methods with .fit(): PCA, KMeans
+
+### Ressources
+- https://scikit-learn.org/
+- https://scikit-learn.org/stable/auto_examples/datasets/plot_iris_dataset.html
+- https://scikit-learn.org/stable/auto_examples/cluster/plot_cluster_iris.html
+
