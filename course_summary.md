@@ -190,7 +190,9 @@ Re-create the figure below.
 </div>
 
 
-## Session 7: scikit-learn
+# Block2
+
+## Session 8: scikit-learn
 
 ### Goals 
 - Understand (short) programs
