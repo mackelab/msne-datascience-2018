@@ -186,13 +186,58 @@ Please refer to the notebook (called "Numpy_exercises.ipynb") provided in the co
 Re-create the figure below.
 
 <div style="text-align:center">
-    <img src ="notebooks/block1/img/ExercisePlot.png" height="800" width="800"/>
+    <img src ="notebooks/block1/img/ExercisePlot.png" height="600"/>
 </div>
 
 
 # Block2
+## Session 8: Pandas and seaborn
+### Goals 
+1. Understand the positioning of Pandas in the data science pipeline and the convenience supplied by /labeled data structures/, /automatic missing data handling/, /column-oriented layouts/, /embodiment of relational algebra/ and /rich C-level implementation of a functional map/reduce like API/. 
+1. Understand row and column-oriented access patterns, know the customary layout of observations x attributes for data science.
+1. Understand `pd.Series` and `pd.DataFrames` data structures and their properties as compared to known basic Python data structures.
+1. Be able to read textual tabular data from the filesystem and remote urls.
+1. Practice access to data and metadata.
+1. Use grouping operations and allowable reductions on them ('split-apply-combine')
+1. Express composable map operations in Pandas with anonymous functions
+1. Appreciate the advantages of splitting (/normalizing/) observational statements to prevent duplication and how table joins allow to operate practically in this setting.
+1. Enumerate available dimensions of graphical variation to accomodate categorical and continuous data
+ 
+### Content
+1. Series and data frames created from dictionaries and (nested) lists.
+1.`read_csv` with different urls, separators.
+1. metadata accessors (`index`, `columns`, `info`, `dtypes`, `shape`, `len`) and data (`.values`, .`iloc`, `loc`, `head`, `tail`). Multiple uses of `[]`: element access in series, column access in data frames, boolean indexing with conforming arrays.
+1. grouping operations `groupby`, `value_counts`, `(n)unique`.
+1. chainable mapping with `apply` and `lambda` functions. Compare with for-loop iteration.
+1. caveats in assignment, `df.attribute = something` will not create a new column
+1. reduction operations `min`, `max`, `mean`, `std`, `median`, `count` and descriptive statistics with `describe`
+l. sorting with `sort_values`
+1. `merge` and the join key
+1. understand the relationship of seaborn with matplotlib and the added value of the former.
+### Resources
+- [Pandas cheatsheet](https://pandas.pydata.org/Pandas_Cheat_Sheet.pdf)
+- [Pandas exercises](https://github.com/guipsamora/pandas_exercises)
+- [Pandas documentation](https://pandas.pydata.org/)
+- [Seaborn Gallery](http://seaborn.pydata.org/examples/index.html)
+- [Seaborn introduction](https://seaborn.pydata.org/introduction.html)
+- [Jake van der Plas' intro to Seaborn](https://jakevdp.github.io/PythonDataScienceHandbook/04.14-visualization-with-seaborn.html)
+### Exercises
+#### Pandas
+Looking at the Pandas cheatsheet and recurring to the interactive documentation or the API docs linked above, try to solve the following three notebooks. Then, check your answers against the provided solutions, try to understand and come up with precise questions for any remaining doubt.
+- https://github.com/guipsamora/pandas_exercises/tree/master/02_Filtering_%26_Sorting/Fictional%20Army
+- https://github.com/guipsamora/pandas_exercises/tree/master/03_Grouping/Alcohol_Consumption
+- https://github.com/guipsamora/pandas_exercises/tree/master/05_Merge/Fictitous%20Names
+If you want more challenges, go for the following:
+- https://github.com/guipsamora/pandas_exercises/tree/master/02_Filtering_%26_Sorting/Euro12
+- https://github.com/guipsamora/pandas_exercises/tree/master/03_Grouping/Regiment
+- https://github.com/guipsamora/pandas_exercises/tree/master/05_Merge/Housing%20Market
+For even more you can choose directly from the list of available topics.
+#### Seaborn
+Choose one graphical display from the Seaborn gallery (see Resources above), choose one of the datasets now known to you from the exercises (or any other of your interest, check out kaggle.com or data.world) and make a Seaborn plot with at least four dimensions of variation reflecting a mixture of continuous and discrete attributes.
 
-## Session 8: scikit-learn
+For your upcoming final project, make at least one of the final presentation plots using Seaborn.
+
+## Session 9: scikit-learn
 
 ### Goals 
 - Understand (short) programs
@@ -207,7 +252,7 @@ Re-create the figure below.
     - Visualize data (with matplotlib)
     - Apply simple ML methods with .fit(): PCA, KMeans
 
-### Ressources
+### Resources
 - https://scikit-learn.org/
 - https://scikit-learn.org/stable/auto_examples/datasets/plot_iris_dataset.html
 - https://scikit-learn.org/stable/auto_examples/cluster/plot_cluster_iris.html
