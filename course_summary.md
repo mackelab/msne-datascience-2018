@@ -191,7 +191,7 @@ Re-create the figure below.
 
 
 # Block2
-## Session 8: Pandas and seaborn
+## Session 6: Pandas and seaborn
 ### Goals 
 1. Understand the positioning of Pandas in the data science pipeline and the convenience supplied by /labeled data structures/, /automatic missing data handling/, /column-oriented layouts/, /embodiment of relational algebra/ and /rich C-level implementation of a functional map/reduce like API/. 
 1. Understand row and column-oriented access patterns, know the customary layout of observations x attributes for data science.
@@ -204,16 +204,16 @@ Re-create the figure below.
 1. Enumerate available dimensions of graphical variation to accomodate categorical and continuous data
  
 ### Content
-1. Series and data frames created from dictionaries and (nested) lists.
-1.`read_csv` with different urls, separators.
-1. metadata accessors (`index`, `columns`, `info`, `dtypes`, `shape`, `len`) and data (`.values`, .`iloc`, `loc`, `head`, `tail`). Multiple uses of `[]`: element access in series, column access in data frames, boolean indexing with conforming arrays.
-1. grouping operations `groupby`, `value_counts`, `(n)unique`.
-1. chainable mapping with `apply` and `lambda` functions. Compare with for-loop iteration.
-1. caveats in assignment, `df.attribute = something` will not create a new column
-1. reduction operations `min`, `max`, `mean`, `std`, `median`, `count` and descriptive statistics with `describe`
-l. sorting with `sort_values`
-1. `merge` and the join key
-1. understand the relationship of seaborn with matplotlib and the added value of the former.
+- Series and data frames created from dictionaries and (nested) lists.
+- `read_csv` with different urls, separators.
+- metadata accessors (`index`, `columns`, `info`, `dtypes`, `shape`, `len`) and data (`.values`, .`iloc`, `loc`, `head`, `tail`). Multiple uses of `[]`: element access in series, column access in data frames, boolean indexing with conforming arrays.
+- grouping operations `groupby`, `value_counts`, `(n)unique`.
+- chainable mapping with `apply` and `lambda` functions. Compare with for-loop iteration.
+- caveats in assignment, `df.attribute = something` will not create a new column
+- reduction operations `min`, `max`, `mean`, `std`, `median`, `count` and descriptive statistics with `describe`
+- sorting with `sort_values`
+- `merge` and the join key
+- understand the relationship of seaborn with matplotlib and the added value of the former.
 ### Resources
 - [Pandas cheatsheet](https://pandas.pydata.org/Pandas_Cheat_Sheet.pdf)
 - [Pandas exercises](https://github.com/guipsamora/pandas_exercises)
@@ -227,23 +227,26 @@ Looking at the Pandas cheatsheet and recurring to the interactive documentation 
 - https://github.com/guipsamora/pandas_exercises/tree/master/02_Filtering_%26_Sorting/Fictional%20Army
 - https://github.com/guipsamora/pandas_exercises/tree/master/03_Grouping/Alcohol_Consumption
 - https://github.com/guipsamora/pandas_exercises/tree/master/05_Merge/Fictitous%20Names
+
 If you want more challenges, go for the following:
 - https://github.com/guipsamora/pandas_exercises/tree/master/02_Filtering_%26_Sorting/Euro12
 - https://github.com/guipsamora/pandas_exercises/tree/master/03_Grouping/Regiment
 - https://github.com/guipsamora/pandas_exercises/tree/master/05_Merge/Housing%20Market
+
 For even more you can choose directly from the list of available topics.
+
 #### Seaborn
 Choose one graphical display from the Seaborn gallery (see Resources above), choose one of the datasets now known to you from the exercises (or any other of your interest, check out kaggle.com or data.world) and make a Seaborn plot with at least four dimensions of variation reflecting a mixture of continuous and discrete attributes.
 
 For your upcoming final project, make at least one of the final presentation plots using Seaborn.
 
-## Session 9: scikit-learn
+## Session 7: scikit-learn
 
 ### Goals 
-- Understand (short) programs
-- Exposure to central concepts of machine learning
-- Examples of data analysis workflows
-- Learn scikit syntax
+1. Understand (short) programs
+1. Exposure to central concepts of machine learning
+1. Examples of data analysis workflows
+1. Learn scikit syntax
 
 ### Content 
 - Short introduction to machine learning
