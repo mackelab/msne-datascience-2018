@@ -12,4 +12,14 @@
 [Kaggle Leaf classification](https://www.kaggle.com/c/leaf-classification)
 
 ## Neuroscience projects
+The following projects are kindly provided by the [Models of higher brain functions course](https://www.bccn-berlin.de/courses-and-modules.html#ui-id-11) at BCCN Berlin.
+
 [visual perception](neuro_projects/1visual_perception.pdf)
+
+[slow feature analysis](neuro_projects/2slow_feature_analysis.pdf)
+
+[saliency](neuro_projects/3saliency.pdf)
+
+[perceptual bistability](neuro_projects/4perceptual_bistability.pdf)
+
+[decision making](neuro_projects/5decision_making.pdf)
