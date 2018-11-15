@@ -23,3 +23,5 @@ The following projects are kindly provided by the [Models of higher brain functi
 [perceptual bistability](neuro_projects/4perceptual_bistability.pdf)
 
 [decision making](neuro_projects/5decision_making.pdf)
+
+[spike predicton from real data](neuro_projects/6spike_prediction.md)
