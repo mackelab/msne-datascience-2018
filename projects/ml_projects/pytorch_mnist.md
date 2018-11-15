@@ -1,9 +1,10 @@
-Pytorch Project
+## Pytorch Project
 
 ### Getting started
-First, a short intro to OOP:
+First, to actually understand PyTorch you need to understand object oriented programming:
 - https://realpython.com/python3-object-oriented-programming/
 - https://www.codecademy.com/courses/learn-python/lessons/introduction-to-classes/exercises/why-use-classes?action=resume_content_item
+
 Then PyTorch tutorials:
 - overview of deep learning frameworks: https://www.netguru.co/blog/deep-learning-frameworks-comparison
 - https://pytorch.org/get-started/locally/
