@@ -12,6 +12,8 @@
 [Kaggle Leaf classification](https://www.kaggle.com/c/leaf-classification)
 
 ## Neuroscience
+[spike predicton from real data](neuro_projects/6spike_prediction.md)
+
 The following projects are kindly provided by the [Models of higher brain functions course](https://www.bccn-berlin.de/courses-and-modules.html#ui-id-11) at BCCN Berlin.
 
 [visual perception](neuro_projects/1visual_perception.pdf)
@@ -23,5 +25,3 @@ The following projects are kindly provided by the [Models of higher brain functi
 [perceptual bistability](neuro_projects/4perceptual_bistability.pdf)
 
 [decision making](neuro_projects/5decision_making.pdf)
-
-[spike predicton from real data](neuro_projects/6spike_prediction.md)
