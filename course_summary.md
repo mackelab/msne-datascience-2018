@@ -260,3 +260,28 @@ For your upcoming final project, make at least one of the final presentation plo
 - https://scikit-learn.org/stable/auto_examples/datasets/plot_iris_dataset.html
 - https://scikit-learn.org/stable/auto_examples/cluster/plot_cluster_iris.html
 
+# Block 3 
+## Session 1 
+### Goals
+- have an overview of editors and programming environments for python.
+- know why and how to use anaconda environments.
+- find a project and decide.
+- create an environment for your project, choose an editor for your project.
+- start working on your project. 
+
+### Lecture 1 Editors
+Overview of editors: 
+- [pycharm](https://www.jetbrains.com/pycharm/), 
+- [atom](https://atom.io/), 
+- [emacs](https://www.gnu.org/software/emacs/tour/index.html), 
+- [vi](https://www.guru99.com/the-vi-editor.html)
+
+[Slides in a notebook: link](notebooks/block3/block3_session1_editors.ipynb)
+    
+### Lecture 2 Anaconda environments 
+Short intro to anaconda envs, demo. Have a look at 
+- https://medium.freecodecamp.org/why-you-need-python-environments-and-how-to-manage-them-with-conda-85f155f4353c
+- https://conda.io/docs/user-guide/tasks/manage-environments.html
+
+### Choosing projects
+overview of projects: [here](projects/project_overview.md)
