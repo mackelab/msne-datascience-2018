@@ -18,10 +18,10 @@ The following projects are kindly provided by the [Models of higher brain functi
 
 - [visual perception](neuro_projects/1visual_perception.pdf)
 
-- [slow feature analysis](neuro_projects/2slow_feature_analysis.pdf)
+- [slow feature analysis](neuro_projects/sfa/slow_feature_analysis.pdf)
 
 - [saliency](neuro_projects/3saliency.pdf)
 
-- [perceptual bistability](neuro_projects/4perceptual_bistability.pdf)
+- [perceptual bistability](neuro_projects/perceptual_bistability/perceptual_bistability.pdf)
 
 - [decision making](neuro_projects/5decision_making.pdf)
