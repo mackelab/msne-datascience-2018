@@ -1,11 +1,11 @@
 # msne-datascience-2018
 Welcome to the Fundamentals of Computer Science for Computational Neuroengineering Couse. This is a git repository containing the course material.
 
-You find notebooks with exercises in the `notebooks` folder and slides with
-summaries of lectures in the `slides` folder.
+In the ![course overview](course_overview.md) document you find an overview of the covered material with links to other resources. 
 
-The course is organized in blocks and you will find subfolders for
-every block.
+You find notebooks with exercises in the ![notebooks](notebooks/) folder and slides with summaries of lectures in the ![slides](slides/) folder.
+
+The course is organized in blocks and you will find subfolders for every block.
 
 To download the course content click on the green button `Clone or download` in
 the top right. Then you can either download a zipped version of the course
