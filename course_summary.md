@@ -1,5 +1,5 @@
 # Course Summary
-# Block1 
+# Block 1 
 
 ## Session 1: Getting started 
 ### Goals 
@@ -190,7 +190,7 @@ Re-create the figure below.
 </div>
 
 
-# Block2
+# Block 2
 ## Session 6: Pandas and seaborn
 ### Goals 
 1. Understand the positioning of Pandas in the data science pipeline and the convenience supplied by /labeled data structures/, /automatic missing data handling/, /column-oriented layouts/, /embodiment of relational algebra/ and /rich C-level implementation of a functional map/reduce like API/. 
