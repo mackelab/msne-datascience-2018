@@ -54,7 +54,7 @@ def dominance_durations(x1, x2, t):
     dom = (x1 - x2) > .1
     
     # find the shifts by taking the derivative
-    idx = np.where(np.diff(dom))
+    idx = np.where(np.diff(dom))[0]
     
     # add shifts at the beginning and end to compensate the diff operation
     shifttimes = np.zeros(len(idx) + 2)
@@ -74,6 +74,8 @@ I1, I2 = 0.43, 0.5
 t = np.linspace(0,500,5001)
 sol = odeint(laing_chow, x0, t, args=(I1, I2))
 plot_results(sol, t)
-plt.show()
+# plt.show()
 
 dominance_durations(sol[:, 2], sol[:, 0], t)
+
+
