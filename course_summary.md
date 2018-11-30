@@ -285,3 +285,32 @@ Short intro to anaconda envs, demo. Have a look at
 
 ### Choosing projects
 overview of projects: [here](projects/project_overview.md)
+
+
+## Block 4 
+### Session 2 -- Introduction to deep learning frameworks
+
+#### Goals
+
+-   Understand the scaffolding of deep learning: function learning, empirical risk minimization + regularization, matrix products, taking derivatives, following gradients, expressing complex computational graphs.
+-   Understand the forward pass in terms of function composition of matrix products and nonlinearities
+-   Appreciate the interest of moving matrix products to the GPU and how to do it in PyTorch.
+-   Understand the principle of backpropagation, and how to indicate in PyTorch that gradients will be required.
+-   Obtain a qualitative understanding of the pitfalls and limitations of gradient learning. Know where to find optimizers and tune learning rates in PyTorch.
+-   Find in PyTorch the building blocks to conveniently create multilayer neural networks.
+-   Identify helpful framework services for the industrialisation of deep networks: distributed training, model serving, checkpointing, model porting (onnx), monitoring, export to embedded/mobile.
+
+#### Content
+
+See the [slides](slides/block_4/deep_learning.pdf).
+
+#### References
+
+-   [Deep learning with PyTorch: a 60-minute blitz](https://pytorch.org/tutorials/beginner/deep_learning_60min_blitz.html)
+-   Géron: hands-on machine learning with scikit-learn and tensoflow
+-   [Deep Learning Book](https://www.deeplearningbook.org/)
+
+
+#### Exercises
+
+Find an example of a network defined in PyTorch and identify in the code the places where a) network definition b) loss function specification c) optimizer choice d) learning rate scheduling (if applicable) e) checkpointing or monitoring (if applicable) are happening. Discuss what aspects of the code represent regularization strategies and if there are any explicit regularization terms in the cost function.
